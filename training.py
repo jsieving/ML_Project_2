@@ -10,6 +10,10 @@ resolution (must be a power of 2), number of buckets to divide color into, and
 whether or not to use color. So, `python3 training.py flowers 64 16 c` produces
 a 64x64 color impression of flowers, with RGB values each going from 0-15.
 
+For large datasets, if you want to get some results quickly you can pass a final value as an argument that allows you to only process 1 out of N images. So,
+`python3 training.py faces 64 16 x 5` will process every fifth image, generating
+a 64x64 grayscale impression of the images. 
+
 Author: Jane Sieving
 
 ---
