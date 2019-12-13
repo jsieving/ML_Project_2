@@ -12,7 +12,7 @@ a 64x64 color impression of flowers, with RGB values each going from 0-15.
 
 For large datasets, if you want to get some results quickly you can pass a final value as an argument that allows you to only process 1 out of N images. So,
 `python3 training.py faces 64 16 x 5` will process every fifth image, generating
-a 64x64 grayscale impression of the images. 
+a 64x64 grayscale impression of the images.
 
 Author: Jane Sieving
 
@@ -76,26 +76,25 @@ if len(sys.argv) > 2:
     SIZE = int(sys.argv[2])
 else:
     SIZE = 32
-    print("Image size:", SIZE)
+print("Image size:", SIZE)
 
 if len(sys.argv) > 3:
     BUCKETS = int(sys.argv[3])
 else:
     BUCKETS = 16
-    print("Color buckets:", BUCKETS)
+print("Color buckets:", BUCKETS)
 
+COLOR = False
 if len(sys.argv) > 4:
     if str(sys.argv[4])[0].lower() == 'c':
         COLOR = True
-else:
-    COLOR = False
-    print("Color images:", COLOR)
+print("Color images:", COLOR)
 
 if len(sys.argv) > 5:
     skip_count = int(sys.argv[5])
 else:
     skip_count = 0
-    print("Skip over:", skip_count - 1)
+print("Skip over:", skip_count - 1)
 
 # Download data if not already downloaded
 data_dir = tf.keras.utils.get_file(origin=data_link, fname=data_name, untar=True)
@@ -144,7 +143,7 @@ for class_name, image_files in class_dict.items():
         imp.remember(arr)
         img_progress += 1
         if img_progress % 100 == 0:
-            print("%.1f percent -\t%i/%i images remembered" % (img_progress/img_count, img_progress, img_count))
+            print("%.1f percent -\t%i/%i images remembered" % (img_progress/img_count*100, img_progress, img_count))
     total_time = time.clock() - start_time
 
     print("%i images in %.2f seconds" % (imp.img_count, total_time))

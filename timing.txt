@@ -41,3 +41,56 @@ jane@jls-Latitude-5480:~/ML$ python3 main.py
 	16 buckets, size 32:	2.1012 total	0.00210124 per item
 	16 buckets, size 64:	4.5508 total	0.00455079 per item
 	16 buckets, size 128:	13.4298 total	0.01342976 per item
+
+---
+128x128, 16b
+
+3670 images loaded.
+Classes found: ['tulips', 'roses', 'sunflowers', 'dandelion', 'daisy']
+36.7 percent -	3670/100 images remembered
+18.4 percent -	3670/200 images remembered
+12.2 percent -	3670/300 images remembered
+9.2 percent -	3670/400 images remembered
+7.3 percent -	3670/500 images remembered
+6.1 percent -	3670/600 images remembered
+699 images in 455.29 seconds
+File saved as C_128s_16b__sunflowers.pkl in learning/
+5.2 percent -	3670/700 images remembered
+4.6 percent -	3670/800 images remembered
+4.1 percent -	3670/900 images remembered
+3.7 percent -	3670/1000 images remembered
+3.3 percent -	3670/1100 images remembered
+3.1 percent -	3670/1200 images remembered
+2.8 percent -	3670/1300 images remembered
+2.6 percent -	3670/1400 images remembered
+2.4 percent -	3670/1500 images remembered
+898 images in 581.39 seconds
+File saved as C_128s_16b__dandelion.pkl in learning/
+2.3 percent -	3670/1600 images remembered
+2.2 percent -	3670/1700 images remembered
+2.0 percent -	3670/1800 images remembered
+1.9 percent -	3670/1900 images remembered
+1.8 percent -	3670/2000 images remembered
+1.7 percent -	3670/2100 images remembered
+1.7 percent -	3670/2200 images remembered
+641 images in 414.68 seconds
+File saved as C_128s_16b__roses.pkl in learning/
+1.6 percent -	3670/2300 images remembered
+1.5 percent -	3670/2400 images remembered
+1.5 percent -	3670/2500 images remembered
+1.4 percent -	3670/2600 images remembered
+1.4 percent -	3670/2700 images remembered
+1.3 percent -	3670/2800 images remembered
+1.3 percent -	3670/2900 images remembered
+1.2 percent -	3670/3000 images remembered
+799 images in 524.53 seconds
+File saved as C_128s_16b__tulips.pkl in learning/
+1.2 percent -	3670/3100 images remembered
+1.1 percent -	3670/3200 images remembered
+1.1 percent -	3670/3300 images remembered
+1.1 percent -	3670/3400 images remembered
+1.0 percent -	3670/3500 images remembered
+1.0 percent -	3670/3600 images remembered
+633 images in 415.65 seconds
+File saved as C_128s_16b__daisy.pkl in learning/
+

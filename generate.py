@@ -51,20 +51,19 @@ if len(sys.argv) > 2:
     SIZE = int(sys.argv[2])
 else:
     SIZE = 32
-    print("Image size:", SIZE)
+print("Image size:", SIZE)
 
 if len(sys.argv) > 3:
     BUCKETS = int(sys.argv[3])
 else:
     BUCKETS = 16
-    print("Color buckets:", BUCKETS)
+print("Color buckets:", BUCKETS)
 
+COLOR = False
 if len(sys.argv) > 4:
     if str(sys.argv[4])[0].lower() == 'c':
         COLOR = True
-else:
-    COLOR = False
-    print("Color images:", COLOR)
+print("Color images:", COLOR)
 
 # create list of classes
 if separated_classes:
