@@ -1,0 +1,43 @@
+jane@jls-Latitude-5480:~/ML$ python3 main.py
+	4 buckets, size 4:	0.0958 total	0.00009582 per item
+	4 buckets, size 8:	0.3545 total	0.00035451 per item
+	4 buckets, size 16:	0.9649 total	0.00096488 per item
+	4 buckets, size 32:	2.7389 total	0.00273891 per item
+	4 buckets, size 64:	8.3447 total	0.00834467 per item
+	4 buckets, size 128:	29.2278 total	0.02922775 per item
+
+	8 buckets, size 4:	0.1033 total	0.00010333 per item
+	8 buckets, size 8:	0.3510 total	0.00035097 per item
+	8 buckets, size 16:	0.9936 total	0.00099359 per item
+	8 buckets, size 32:	2.6874 total	0.00268741 per item
+	8 buckets, size 64:	8.1294 total	0.00812941 per item
+	8 buckets, size 128:	29.5167 total	0.02951667 per item
+
+	16 buckets, size 4:	0.1033 total	0.00010327 per item
+	16 buckets, size 8:	0.3513 total	0.00035131 per item
+	16 buckets, size 16:	0.9840 total	0.00098403 per item
+	16 buckets, size 32:	2.7222 total	0.00272215 per item
+	16 buckets, size 64:	8.6789 total	0.00867886 per item
+	16 buckets, size 128:	30.6237 total	0.03062371 per item
+
+jane@jls-Latitude-5480:~/ML$ python3 main.py
+	4 buckets, size 4:	0.0761 total	0.00007605 per item
+	4 buckets, size 8:	0.2772 total	0.00027724 per item
+	4 buckets, size 16:	0.7095 total	0.00070951 per item
+	4 buckets, size 32:	1.7781 total	0.00177812 per item
+	4 buckets, size 64:	4.0733 total	0.00407333 per item
+	4 buckets, size 128:	12.5695 total	0.01256946 per item
+
+	8 buckets, size 4:	0.0812 total	0.00008116 per item
+	8 buckets, size 8:	0.2804 total	0.00028035 per item
+	8 buckets, size 16:	0.7151 total	0.00071513 per item
+	8 buckets, size 32:	1.7018 total	0.00170181 per item
+	8 buckets, size 64:	4.0206 total	0.00402060 per item
+	8 buckets, size 128:	16.2918 total	0.01629179 per item
+
+	16 buckets, size 4:	0.0962 total	0.00009616 per item
+	16 buckets, size 8:	0.3641 total	0.00036410 per item
+	16 buckets, size 16:	0.7854 total	0.00078545 per item
+	16 buckets, size 32:	2.1012 total	0.00210124 per item
+	16 buckets, size 64:	4.5508 total	0.00455079 per item
+	16 buckets, size 128:	13.4298 total	0.01342976 per item
